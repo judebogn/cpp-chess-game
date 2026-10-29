@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Projet-Echec" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Projet-Echec" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Projet-Echec" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Cavalier.h" />
+		<Unit filename="include/Dame.h" />
+		<Unit filename="include/Fou.h" />
+		<Unit filename="include/Humain.h" />
+		<Unit filename="include/Jeu.h" />
+		<Unit filename="include/Joueur.h" />
+		<Unit filename="include/Ordinateur.h" />
+		<Unit filename="include/Pieces.h" />
+		<Unit filename="include/Pion.h" />
+		<Unit filename="include/Plateau.h" />
+		<Unit filename="include/Position.h" />
+		<Unit filename="include/Roi.h" />
+		<Unit filename="include/Tour.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Cavalier.cpp" />
+		<Unit filename="src/Dame.cpp" />
+		<Unit filename="src/Fou.cpp" />
+		<Unit filename="src/Humain.cpp" />
+		<Unit filename="src/Jeu.cpp" />
+		<Unit filename="src/Joueur.cpp" />
+		<Unit filename="src/Ordinateur.cpp" />
+		<Unit filename="src/Pieces.cpp" />
+		<Unit filename="src/Pion.cpp" />
+		<Unit filename="src/Plateau.cpp" />
+		<Unit filename="src/Position.cpp" />
+		<Unit filename="src/Roi.cpp" />
+		<Unit filename="src/Tour.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
